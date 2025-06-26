@@ -1,3 +1,4 @@
+
 #archives {
     margin: auto;
     margin-top: 100px;
@@ -15,21 +16,21 @@
     margin: 10px;
 }
 #archives .categories-tags span .icon {
-    color: #fff;
+    color: #c9d1d9; /* Dark Mode: Light grey icon */
     margin-left: 0;
     margin-right: 10px;
 }
 #archives .categories-tags span a {
-    border: #ffffff80 1px solid;
+    border: #888 1px solid; /* Dark Mode: Grey border */
     border-radius: 10px;
-    color: #fff;
+    color: #c9d1d9; /* Dark Mode: Light grey text */
     padding: 10px 15px;
     transition: background 0.25s, border 0.25s, color 0.25s;
 }
 #archives .categories-tags span a:hover {
-    background: #fff !important;
-    border: #a5c2f5 1px solid;
-    color: #5c6b72;
+    background: #c9d1d9 !important; /* Dark Mode: Light background on hover */
+    border: #c9d1d9 1px solid;
+    color: #1c1c1c; /* Dark Mode: Dark text on hover */
 }
 #archives .category,
 #archives .tags .tag,
@@ -64,14 +65,14 @@
     width: 100%;
 }
 #footer #footer-icon {
-    color: #66afef;
+    color: #58a6ff; /* Dark Mode: Bright blue icon */
     display: inline-block;
     font-size: 18px;
     margin: 0 10px;
 }
 #footer #footer-wrap {
-    border-top: 1px solid #aaa;
-    color: #5c6b72;
+    border-top: 1px solid #444; /* Dark Mode: Darker border */
+    color: #8b949e; /* Dark Mode: Lighter secondary text */
     margin: auto;
     width: 900px;
 }
@@ -82,10 +83,10 @@
     width: 300px;
 }
 #home-card #card-style {
-    background: #fff;
+    background: #2a2a2a; /* Dark Mode: Dark card background */
     border: none;
     border-radius: 10px;
-    box-shadow: 0 0 20px #d9d9d980;
+    box-shadow: 0 0 20px #00000080; /* Dark Mode: Darker shadow */
     display: flex;
     flex-direction: column;
     max-height: 80vh;
@@ -101,7 +102,7 @@
     padding: 25px 0;
 }
 #home-card #card-div .avatar {
-    border: #f1f1f1 solid 3px;
+    border: #444 solid 3px; /* Dark Mode: Darker avatar border */
     border-radius: 50%;
     height: 140px;
     margin: auto;
@@ -125,7 +126,7 @@
 }
 #home-card #card-div .friend-links a {
     border-radius: 5px;
-    color: #5c6b72;
+    color: #a9b1b9; /* Dark Mode: Lighter link text */
     display: block;
     padding: 8px 0;
 }
@@ -134,19 +135,19 @@
 }
 #home-card #card-div .icon-links a {
     border-radius: 5px;
-    color: #5c6b72;
+    color: #a9b1b9; /* Dark Mode: Lighter icon text */
     font-size: 18px;
     padding: 5px;
 }
 #home-card #card-div .icon-links a:hover,
 #home-card #card-div .friend-links a:hover,
 #home-posts .page-current .page-num:hover {
-    background: #66afef;
+    background: #58a6ff; /* Dark Mode: Bright blue hover background */
     color: #fff;
 }
 #home-card #card-div .icon-links,
 #home-card #card-div .friend-links {
-    border-top: #cdcdcd solid 1px;
+    border-top: #444 solid 1px; /* Dark Mode: Darker border */
     margin: 10px auto;
     padding-top: 10px;
     width: 85%;
@@ -179,32 +180,29 @@
     justify-content: center;
     text-align: center;
 }
+/* Dark Mode: Reduced opacity for background loops */
+#home-head #home-info .loop {
+    background: #fff;
+    opacity: 0.1; 
+}
 #home-head #home-info .loop:nth-child(1) {
     animation: loop1 10s linear infinite;
-    background: #fff;
     border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
-    opacity: 0.3;
     transform: rotate(30deg);
 }
 #home-head #home-info .loop:nth-child(2) {
     animation: loop2 15s linear infinite;
-    background: #fff;
     border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
-    opacity: 0.45;
     transform: rotate(60deg);
 }
 #home-head #home-info .loop:nth-child(3) {
     animation: loop3 10s linear infinite;
-    background: #fff;
     border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
-    opacity: 0.3;
     transform: rotate(90deg);
 }
 #home-head #home-info .loop:nth-child(4) {
     animation: loop4 15s linear infinite;
-    background: #fff;
     border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
-    opacity: 0.45;
     transform: rotate(120deg);
 }
 #home-head #home-info,
@@ -222,7 +220,7 @@
 }
 #home-posts .page-current .current {
     border-radius: 5px;
-    color: #da0a51;
+    color: #e3629b; /* Keeping a vibrant color for current page */
     display: inline-block;
     height: 35px;
     line-height: 35px;
@@ -241,16 +239,16 @@
     width: 35px;
 }
 #home-posts .page-current a {
-    color: #999;
+    color: #8b949e; /* Dark Mode: Lighter grey for page numbers */
 }
 #home-posts .post {
-    background: #fff;
+    background: #2a2a2a; /* Dark Mode: Dark post background */
     border-radius: 20px;
-    box-shadow: 0 0 20px #d9d9d980;
+    box-shadow: 0 0 20px #00000080; /* Dark Mode: Darker shadow */
     transition: box-shadow 0.25s, transform 0.25s;
 }
 #home-posts .post .category-and-date {
-    color: #5c6b72;
+    color: #8b949e; /* Dark Mode: Lighter grey for meta info */
     margin-top: 15px;
     text-align: center;
     width: 100%;
@@ -265,7 +263,7 @@
 #archives .item-time,
 #archives .categories-tags span a:hover .icon,
 .article .info a {
-    color: #5c6b72;
+    color: #8b949e; /* Dark Mode: Lighter grey for links in meta */
 }
 #home-posts .post .category-and-date .date,
 #archives .tags,
@@ -277,11 +275,11 @@
     margin-left: 25px;
 }
 #home-posts .post .go-post {
-    background: linear-gradient(120deg, #9abbf7 0%, #ffbbf4 100%);
+    background: linear-gradient(120deg, #3a7bf0 0%, #e3629b 100%); /* Dark Mode: Adjusted gradient */
     border: 0;
     border-radius: 20px 0;
     bottom: -5px;
-    box-shadow: 2px 2px 10px 0 #ffbbf47a;
+    box-shadow: 2px 2px 10px 0 #e3629b7a;
     color: #fff;
     font-size: 14px;
     font-weight: bold;
@@ -291,7 +289,7 @@
     transition: box-shadow 0.25s ease-out, right 0.25s ease-out;
 }
 #home-posts .post .go-post:hover {
-    box-shadow: -2px -2px 10px 0 #9abbf77a;
+    box-shadow: -2px -2px 10px 0 #3a7bf07a;
     right: -7px;
 }
 #home-posts .post .post-tags .tag {
@@ -308,11 +306,11 @@
     line-height: 1.7;
 }
 #home-posts .post-title {
-    color: #66afef;
+    color: #58a6ff; /* Dark Mode: Bright blue for post titles */
     text-align: center;
 }
 #home-posts .post:hover {
-    box-shadow: 0 0 5px #d9d9d9;
+    box-shadow: 0 0 5px #000; /* Dark Mode: Darker hover shadow */
     transform: translate(-5px, -5px);
 }
 #home-posts-wrap {
@@ -330,7 +328,7 @@
 }
 #loading {
     align-items: center;
-    background: #fff;
+    background: #1c1c1c; /* Dark Mode: Dark loading screen */
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -353,7 +351,7 @@
 }
 #loading-circle {
     align-items: center;
-    border: 10px solid #a3ddfb;
+    border: 10px solid #58a6ff; /* Dark Mode: Bright blue loading circle */
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -367,8 +365,8 @@
     margin-right: calc(100% - 100vw);
 }
 #menu {
-    background: #92cafa;
-    box-shadow: 0 -1px 10px 0 #9e9e9e4d;
+    background: #2a2a2acc; /* Dark Mode: Semi-transparent dark menu */
+    box-shadow: 0 -1px 10px 0 #0000004d;
     font-weight: bold;
     line-height: 50px;
     position: fixed;
@@ -381,13 +379,13 @@
     height: 50px;
 }
 #menu #desktop-menu .title {
-    color: #555;
+    color: #c9d1d9; /* Dark Mode: Light grey text */
     display: inline-block;
     margin-left: 60px;
     margin-right: 5px;
 }
 #menu #desktop-menu a {
-    color: #555;
+    color: #c9d1d9; /* Dark Mode: Light grey text */
     display: inline-block;
     margin-left: 30px;
 }
@@ -407,15 +405,15 @@
     width: 80%;
 }
 #menu #mobile-menu .items a {
-    color: #555;
+    color: #c9d1d9; /* Dark Mode: Light grey text */
 }
 #menu #mobile-menu .title {
-    color: #555;
+    color: #c9d1d9; /* Dark Mode: Light grey text */
     cursor: pointer;
     z-index: 1003;
 }
 #menu-curtain {
-    background: #0003;
+    background: #0000004d; /* Dark Mode: Darker curtain */
     height: 100%;
     left: 0;
     position: fixed;
@@ -427,16 +425,16 @@
     top: -50px;
 }
 #menu.menu-color {
-    background: #0003;
+    background: #0000004d; /* Dark Mode: Darker menu on scroll */
 }
 #menu.menu-color #desktop-menu a,
 #menu.menu-color #mobile-menu a,
 #menu.menu-color #mobile-menu .title {
-    color: #fff;
+    color: #fff; /* Keep text white on scroll */
 }
 #preview {
     align-items: center;
-    background-color: #fffc;
+    background-color: #1c1c1cdd; /* Dark Mode: Darker preview background */
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -447,7 +445,7 @@
     z-index: 1005;
 }
 #preview-content {
-    box-shadow: 0 0 50px 10px #d9d9d980;
+    box-shadow: 0 0 50px 10px #00000080; /* Dark Mode: Darker shadow */
     margin: auto;
     max-height: 95%;
     max-width: 95%;
@@ -464,7 +462,7 @@
     margin: 0;
     padding: 0;
     position: relative;
-    scrollbar-color: #8ab5ff #e6efff;
+    scrollbar-color: #444 #1c1c1c; /* Dark Mode: Dark scrollbar */
     scrollbar-width: thin;
     word-wrap: break-word;
 }
@@ -478,7 +476,7 @@
     margin: 50px 0;
 }
 .article .info .date {
-    color: #5c6b72;
+    color: #8b949e; /* Dark Mode: Lighter grey for meta */
     display: inline-block;
     margin-right: 10px;
 }
@@ -505,7 +503,7 @@ body::-webkit-scrollbar-track {
     max-width: 75%;
 }
 .copycode {
-    color: #5c6b72;
+    color: #8b949e; /* Dark Mode: Lighter grey */
     position: absolute;
     right: 0;
     top: 0;
@@ -536,22 +534,22 @@ body::-webkit-scrollbar-track {
     padding-left: 20px !important;
 }
 .hljs-ln-numbers {
-    border-right: 1px solid #ccc;
-    color: #ccc;
+    border-right: 1px solid #444; /* Dark Mode: Darker border */
+    color: #8b949e; /* Dark Mode: Lighter grey */
     padding-right: 10px !important;
     text-align: right;
     vertical-align: top;
 }
 .icon {
-    color: #5c6b72;
+    color: #8b949e; /* Dark Mode: Lighter grey */
     margin-right: 5px;
 }
 .input {
-    background: #f6f8fa;
-    border: 1px solid #d0d7de;
+    background: #22252a; /* Dark Mode: Dark input */
+    border: 1px solid #444;
     border-radius: 50px;
     box-sizing: border-box;
-    color: #000;
+    color: #c9d1d9; /* Dark Mode: Light text */
     display: block;
     font-size: 15px;
     height: 50px;
@@ -560,13 +558,13 @@ body::-webkit-scrollbar-track {
     width: 100%;
 }
 .input:focus {
-    background: #fff;
-    border-color: #0969da;
-    box-shadow: 0 0 0 3px #0969da4d;
+    background: #1c1c1c;
+    border-color: #58a6ff;
+    box-shadow: 0 0 0 3px #58a6ff4d;
     outline: none;
 }
 .input:hover {
-    background: #fff;
+    background: #1c1c1c;
 }
 .into-enter-active {
     transition: opacity 0.5s, transform 0.5s;
@@ -616,19 +614,19 @@ body::-webkit-scrollbar-track {
     transition: margin-top 0.5s, opacity 0.3s, visibility 0.3s;
 }
 .timeline-content {
-    background: #fff;
-    border: 1px solid #0002;
+    background: #2a2a2a; /* Dark Mode: Dark timeline content */
+    border: 1px solid #444;
     border-radius: 3px;
     margin-left: 17.5px;
     padding: 24px;
     transition: box-shadow 0.5s;
 }
 .timeline-content:hover {
-    box-shadow: 0 2px 8px #00000017;
+    box-shadow: 0 2px 8px #0000004d;
 }
 .timeline-tail {
-    background: #fff;
-    border: 2px solid #a5c2f5;
+    background: #1c1c1c; /* Dark Mode: Dark background */
+    border: 2px solid #58a6ff; /* Dark Mode: Bright blue border */
     border-radius: 50%;
     height: 7px;
     position: absolute;
@@ -639,30 +637,20 @@ body::-webkit-scrollbar-track {
     width: 12px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #8ab5ff
-        linear-gradient(
-            45deg,
-            #fff6 25%,
-            transparent 25%,
-            transparent 50%,
-            #fff6 50%,
-            #fff6 75%,
-            transparent 75%,
-            transparent
-        );
-    border: 3px solid #e6efff;
+    background: #444; /* Dark Mode: Darker scrollbar thumb */
+    border: 3px solid #1c1c1c; /* Dark Mode: Darker border */
     border-radius: 100px;
 }
 ::-webkit-scrollbar-track {
-    background: #e6efff;
+    background: #1c1c1c; /* Dark Mode: Darker scrollbar track */
     border-radius: 100px;
 }
 ::selection {
-    background-color: #3392ff2a;
+    background-color: #58a6ff4d; /* Dark Mode: Lighter selection */
     color: unset;
 }
 a {
-    color: #66afef;
+    color: #58a6ff; /* Dark Mode: Bright blue links */
     text-decoration: none;
 }
 a:hover,
@@ -693,23 +681,24 @@ strong {
     line-height: 2.5;
 }
 blockquote {
-    background: #d9e8ff6b;
-    border-left: 3px solid #1e3e3f;
+    background: #2a2a2a; /* Dark Mode: Dark blockquote */
+    border-left: 3px solid #58a6ff;
     border-radius: 3px;
     margin: 15px 0;
     overflow: auto;
     padding: 0 15px;
 }
 body {
-    background: #f6f8fa;
-    color: #1e3e3f;
+    background: #1c1c1c; /* Dark Mode: Main dark background */
+    color: #c9d1d9; /* Dark Mode: Main light text */
     font: 500 14px Lexend, "Noto Sans SC", sans-serif;
     overflow-x: hidden;
     width: 100%;
 }
 code {
-    background: #bddcf76b;
+    background: #282c34; /* Dark Mode: Dark inline code */
     border-radius: 4px;
+    color: #ffffff;
     line-height: 2.5;
     padding: 4px 8px;
 }
@@ -719,7 +708,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1e3e3f;
+    color: #c9d1d9; /* Dark Mode: Light heading text */
     font-weight: bold;
     margin: 15px 0;
     word-break: keep-all;
@@ -745,6 +734,7 @@ h6 {
 hr {
     border-style: dashed none none;
     border-width: 1.5px;
+    border-color: #444; /* Dark Mode: Darker hr */
 }
 img,
 video,
@@ -753,7 +743,7 @@ iframe {
     border-radius: 10px;
 }
 mark {
-    background: #fff13360;
+    background: #fffb0060; /* Adjusted mark color */
     border-radius: 4px;
     color: unset;
     line-height: 2.5;
@@ -766,9 +756,9 @@ ol {
     margin: 15px 0;
 }
 pre {
-    border: 1px solid #ebeef5;
+    border: 1px solid #30363d; /* Dark Mode: Darker pre border */
     border-radius: 15px;
-    box-shadow: 0 2px 12px 0 #0000001a;
+    box-shadow: 0 2px 12px 0 #0000004d; /* Dark Mode: Darker shadow */
     margin: 25px 0;
     overflow: hidden;
     white-space: normal;
@@ -784,13 +774,13 @@ table:not(.hljs-ln) {
     margin: 15px 0;
 }
 table:not(.hljs-ln) td:nth-child(even) {
-    background: #c7e0fb4d;
+    background: #2a2a2a; /* Dark Mode: Dark table row */
 }
 table:not(.hljs-ln) td:nth-child(odd) {
-    background: #d9e8ff4d;
+    background: #22252a; /* Dark Mode: Darker table row */
 }
 table:not(.hljs-ln) th {
-    background: #a3ddfb;
+    background: #333942; /* Dark Mode: Dark table header */
 }
 table:not(.hljs-ln) tr th,
 table:not(.hljs-ln) tr td {
@@ -913,7 +903,7 @@ ol li {
     }
     #home-head #home-info .info {
         align-items: center;
-        background: #ffffffa6;
+        background: #1c1c1cdd; /* Dark Mode: Darker mobile info background */
         display: flex;
         height: 350px;
         justify-content: center;
