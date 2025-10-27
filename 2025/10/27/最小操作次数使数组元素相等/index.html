@@ -176,21 +176,21 @@
             
             <span class="tag">
                 
-                <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="color: #ff7d73">
+                <a href="/tags/gitHub/" style="color: #03a9f4">
+                    gitHub
+                </a>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="color: #00a596">
                     博客
                 </a>
             </span>
             
             <span class="tag">
                 
-                <a href="/tags/github/" style="color: #03a9f4">
-                    github
-                </a>
-            </span>
-            
-            <span class="tag">
-                
-                <a href="/tags/%E9%A2%98%E8%A7%A3/" style="color: #ffa2c4">
+                <a href="/tags/%E9%A2%98%E8%A7%A3/" style="color: #00bcd4">
                     题解
                 </a>
             </span>
@@ -214,8 +214,8 @@
 <p>一开始的思路是，先把最大的保持不动，先让最小的和大的一样，执行max-min次，然后一直再重复知道max&#x3D;min。 不出意外第一次提交双循环超出时间限制。 思考…….，在让原来最小和最大的变得一样的过程中，其他元素和最小元素的差值是不变的，第二次就是和原来第二大的数字和最小的差值，以此类推…….得到结论最小元素和其他元素的差值</p>
 </blockquote>
 <h2 id="复杂度"><a href="#复杂度" class="headerlink" title="复杂度"></a>复杂度</h2><ul>
-<li>时间复杂度: O(n)O(n) O(n)</li>
-<li>空间复杂度: O(n)O(n) O(n)</li>
+<li>时间复杂度: O(n)</li>
+<li>空间复杂度: O(n)</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">minMoves</span><span class="params">(<span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">        <span class="type">int</span> minTag=<span class="number">0</span>; </span><br><span class="line">        <span class="type">int</span> <span class="variable">min</span> <span class="operator">=</span> nums[<span class="number">0</span>];</span><br><span class="line">        <span class="type">int</span> <span class="variable">result</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;nums.length;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(nums[i]&lt;min)&#123;</span><br><span class="line">                min = nums[i];</span><br><span class="line">                minTag = i;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;nums.length;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(i == minTag) <span class="keyword">continue</span>;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                result = nums[i]-min + result;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">         </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 

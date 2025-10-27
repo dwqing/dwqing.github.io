@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2025/07/02/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">a</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+  </entry>
+  <entry>
     <title>Hexo搭建记录</title>
     <url>/2025/07/02/Hexo%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h1 id="1-基本搭建"><a href="#1-基本搭建" class="headerlink" title="1 基本搭建"></a>1 基本搭建</h1><h3 id="第一步：环境准备-安装-Node-js-和-Git"><a href="#第一步：环境准备-安装-Node-js-和-Git" class="headerlink" title="第一步：环境准备 (安装 Node.js 和 Git)"></a>第一步：环境准备 (安装 Node.js 和 Git)</h3><p>Hexo 是基于 Node.js 的框架，并且需要 Git 来进行版本控制和部署。所以，我们首先需要安装这两个软件。</p>
@@ -294,6 +314,12 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 
 <h1 id="4最后调整信息"><a href="#4最后调整信息" class="headerlink" title="4最后调整信息"></a>4最后调整信息</h1><p>调整配置文件，里面的名字，图片路径，社交链接什么的</p>
+<h1 id="5写文章"><a href="#5写文章" class="headerlink" title="5写文章"></a>5写文章</h1><p>创建</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new 文章名字</span><br></pre></td></tr></table></figure>
+
+<p>部署</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean  清理</span><br><span class="line">hexo g 构建</span><br><span class="line">hexo s 预览</span><br><span class="line">hexo d 部署</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>技术</category>
@@ -307,24 +333,9 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2025/07/02/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">a</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
+    <title>日记</title>
+    <url>/2025/10/08/%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>uniapp调用地图api</title>
@@ -349,11 +360,6 @@
       </tags>
   </entry>
   <entry>
-    <title>日记</title>
-    <url>/2025/10/08/%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>最小操作次数使数组元素相等</title>
     <url>/2025/10/27/%E6%9C%80%E5%B0%8F%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0%E4%BD%BF%E6%95%B0%E7%BB%84%E5%85%83%E7%B4%A0%E7%9B%B8%E7%AD%89/</url>
     <content><![CDATA[<h1 id="最小操作次数使数组元素相等"><a href="#最小操作次数使数组元素相等" class="headerlink" title="最小操作次数使数组元素相等"></a>最小操作次数使数组元素相等</h1><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>给你一个长度为 <code>n</code> 的整数数组，每次操作将会使 <code>n - 1</code> 个元素增加 <code>1</code> 。返回让数组所有元素相等的最小操作次数。</p>
@@ -370,8 +376,8 @@
 <p>一开始的思路是，先把最大的保持不动，先让最小的和大的一样，执行max-min次，然后一直再重复知道max&#x3D;min。 不出意外第一次提交双循环超出时间限制。 思考…….，在让原来最小和最大的变得一样的过程中，其他元素和最小元素的差值是不变的，第二次就是和原来第二大的数字和最小的差值，以此类推…….得到结论最小元素和其他元素的差值</p>
 </blockquote>
 <h2 id="复杂度"><a href="#复杂度" class="headerlink" title="复杂度"></a>复杂度</h2><ul>
-<li>时间复杂度: O(n)O(n) O(n)</li>
-<li>空间复杂度: O(n)O(n) O(n)</li>
+<li>时间复杂度: O(n)</li>
+<li>空间复杂度: O(n)</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">minMoves</span><span class="params">(<span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">        <span class="type">int</span> minTag=<span class="number">0</span>; </span><br><span class="line">        <span class="type">int</span> <span class="variable">min</span> <span class="operator">=</span> nums[<span class="number">0</span>];</span><br><span class="line">        <span class="type">int</span> <span class="variable">result</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;nums.length;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(nums[i]&lt;min)&#123;</span><br><span class="line">                min = nums[i];</span><br><span class="line">                minTag = i;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;nums.length;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(i == minTag) <span class="keyword">continue</span>;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                result = nums[i]-min + result;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">         </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
@@ -379,9 +385,35 @@
         <category>leetcode</category>
       </categories>
       <tags>
+        <tag>gitHub</tag>
         <tag>博客</tag>
-        <tag>github</tag>
         <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>非递减数列</title>
+    <url>/2025/10/27/%E9%9D%9E%E9%80%92%E5%87%8F%E6%95%B0%E5%88%97/</url>
+    <content><![CDATA[<h1 id="非递减数列"><a href="#非递减数列" class="headerlink" title="非递减数列"></a>非递减数列</h1><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>给你一个长度为 <code>n</code> 的整数数组 <code>nums</code> ，请你判断在 <strong>最多</strong> 改变 <code>1</code> 个元素的情况下，该数组能否变成一个非递减数列。</p>
+<p>我们是这样定义一个非递减数列的： 对于数组中任意的 <code>i</code> <code>(0 &lt;= i &lt;= n-2)</code>，总满足 <code>nums[i] &lt;= nums[i + 1]</code>。</p>
+<p><strong>示例 1:</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入: nums = [4,2,3]</span><br><span class="line">输出: true</span><br><span class="line">解释: 你可以通过把第一个 4 变成 1 来使得它成为一个非递减数列。</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2:</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输入: nums = [4,2,1]</span><br><span class="line">输出: false</span><br><span class="line">解释: 你不能在只改变一个元素的情况下将其变为非递减数列。</span><br></pre></td></tr></table></figure>
+
+<p>遍历一遍数组，找到第一个nums[i]&gt;nums[i+1] 的位置，比较第 i-1 和 i+1  的大小，如果 i+1 &gt; i-1 第  nums[i] &#x3D; nums[i+1]</p>
+<p>else    nums[i+1] &#x3D; nums[i] 。</p>
+<p>对i&#x3D;0的要单独讨论</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">checkPossibility</span><span class="params">(<span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">       <span class="keyword">if</span>(nums.length == <span class="number">1</span>) <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        <span class="type">boolean</span> <span class="variable">flag</span> <span class="operator">=</span> <span class="literal">true</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; nums.length - <span class="number">1</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (nums[i] &gt; nums[i + <span class="number">1</span>] ) &#123;</span><br><span class="line">                <span class="keyword">if</span>(flag)&#123;</span><br><span class="line">                    <span class="keyword">if</span>(i==<span class="number">0</span>)&#123;</span><br><span class="line">                        <span class="keyword">if</span>(nums[nums.length-<span class="number">1</span>]&lt;nums[<span class="number">1</span>])&#123;</span><br><span class="line">                            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">                        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                            nums[<span class="number">0</span>]=nums[<span class="number">1</span>];</span><br><span class="line">                        &#125;</span><br><span class="line"></span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">else</span> &#123;</span><br><span class="line">                        <span class="keyword">if</span>(nums[i-<span class="number">1</span>]&gt;nums[i+<span class="number">1</span>]) &#123;</span><br><span class="line">                            nums[i + <span class="number">1</span>] = nums[i];</span><br><span class="line">                        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                            nums[i] = nums[i+<span class="number">1</span>];</span><br><span class="line">                        &#125;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">if</span>(i&gt;<span class="number">1</span>)&#123;</span><br><span class="line">                        i=i-<span class="number">2</span>;</span><br><span class="line">                    &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                        i=-<span class="number">1</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    flag = <span class="literal">false</span>;</span><br><span class="line">                &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>leetcode</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>题解</tag>
+        <tag>giHub</tag>
       </tags>
   </entry>
 </search>
